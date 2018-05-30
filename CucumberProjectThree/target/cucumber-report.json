@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 2214791200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.setUpChrome()"
+            }
+          },
+          {
+            "result": {
+              "duration": 4096522238,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.setUpFirefox()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login with wrong user id and password",
+        "description": "",
+        "id": "ups-login-feature;login-with-wrong-user-id-and-password;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 614578584,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.tearDownChrome()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1388550649,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.tearDownFirefox()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 12431748821,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigated to ups login page",
+            "match": {
+              "location": "LoginSteps.i_navigated_to_ups_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 216336670,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I entered wrong \"user1\" and \"password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 17
+                },
+                {
+                  "val": "password1",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginSteps.i_entered_wrong_user_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3345703809,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login",
+            "match": {
+              "location": "LoginSteps.i_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 11272658,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should receive an error message",
+            "match": {
+              "location": "LoginSteps.i_should_receive_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@firefox"
+          },
+          {
+            "line": 4,
+            "name": "@chrome"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 1864070828,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.setUpChrome()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3721239345,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.setUpFirefox()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with wrong user id and password",
+        "description": "",
+        "id": "ups-login-feature;login-with-wrong-user-id-and-password;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 614699774,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.tearDownChrome()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1323337711,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.tearDownFirefox()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9282511628,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigated to ups login page",
+            "match": {
+              "location": "LoginSteps.i_navigated_to_ups_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 210635601,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I entered wrong \"user2\" and \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 17
+                },
+                {
+                  "val": "password2",
+                  "offset": 29
+                }
+              ],
+              "location": "LoginSteps.i_entered_wrong_user_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3343685025,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login",
+            "match": {
+              "location": "LoginSteps.i_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12903396,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should receive an error message",
+            "match": {
+              "location": "LoginSteps.i_should_receive_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@firefox"
+          },
+          {
+            "line": 4,
+            "name": "@chrome"
+          }
+        ]
+      }
+    ],
+    "name": "Ups Login Feature",
+    "description": "This login feature is for login functionality in UPS website",
+    "id": "ups-login-feature",
+    "keyword": "Feature",
+    "uri": "logintest.feature"
+  }
+]
