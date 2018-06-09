@@ -1,12 +1,12 @@
-Feature: Ups Login Feature again
-  This login feature is for login functionality in UPS website
+Feature: Login Feature For UPS 
+  This login feature is for login functionality
 
   @chrome @firefox
   Scenario Outline: Login with wrong user name and pass
-    Given I navigated to ups login page
-    And I entered wrong "<userid>" and "<password>"
-    When I click on login
-    Then I should receive an error message
+    Given I navigated- to ups login page
+    And I entered- wrong "<userid>" & "<password>"
+    When I click- on login
+    Then I should receive- an error message
 
     Examples: 
       | userid     | password     |
