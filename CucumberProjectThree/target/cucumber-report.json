@@ -6,20 +6,20 @@
         "before": [
           {
             "result": {
-              "duration": 2214791200,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginHook.setUpChrome()"
-            }
-          },
-          {
-            "result": {
-              "duration": 4096522238,
+              "duration": 4067847513,
               "status": "passed"
             },
             "match": {
               "location": "LoginHook.setUpFirefox()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2152882706,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.setUpChrome()"
             }
           }
         ],
@@ -30,7 +30,7 @@
         "after": [
           {
             "result": {
-              "duration": 614578584,
+              "duration": 630081202,
               "status": "passed"
             },
             "match": {
@@ -39,7 +39,7 @@
           },
           {
             "result": {
-              "duration": 1388550649,
+              "duration": 1796317321,
               "status": "passed"
             },
             "match": {
@@ -52,7 +52,7 @@
         "steps": [
           {
             "result": {
-              "duration": 12431748821,
+              "duration": 8495050944,
               "status": "passed"
             },
             "line": 6,
@@ -64,7 +64,7 @@
           },
           {
             "result": {
-              "duration": 216336670,
+              "duration": 205042614,
               "status": "passed"
             },
             "line": 7,
@@ -90,7 +90,7 @@
           },
           {
             "result": {
-              "duration": 3345703809,
+              "duration": 3227811748,
               "status": "passed"
             },
             "line": 8,
@@ -102,7 +102,7 @@
           },
           {
             "result": {
-              "duration": 11272658,
+              "duration": 12977211,
               "status": "passed"
             },
             "line": 9,
@@ -128,20 +128,20 @@
         "before": [
           {
             "result": {
-              "duration": 1864070828,
-              "status": "passed"
-            },
-            "match": {
-              "location": "LoginHook.setUpChrome()"
-            }
-          },
-          {
-            "result": {
-              "duration": 3721239345,
+              "duration": 3676553858,
               "status": "passed"
             },
             "match": {
               "location": "LoginHook.setUpFirefox()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2130190943,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.setUpChrome()"
             }
           }
         ],
@@ -152,7 +152,7 @@
         "after": [
           {
             "result": {
-              "duration": 614699774,
+              "duration": 628774559,
               "status": "passed"
             },
             "match": {
@@ -161,7 +161,7 @@
           },
           {
             "result": {
-              "duration": 1323337711,
+              "duration": 1437656175,
               "status": "passed"
             },
             "match": {
@@ -174,7 +174,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9282511628,
+              "duration": 10219793858,
               "status": "passed"
             },
             "line": 6,
@@ -186,7 +186,7 @@
           },
           {
             "result": {
-              "duration": 210635601,
+              "duration": 210679730,
               "status": "passed"
             },
             "line": 7,
@@ -212,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 3343685025,
+              "duration": 3044010959,
               "status": "passed"
             },
             "line": 8,
@@ -224,7 +224,7 @@
           },
           {
             "result": {
-              "duration": 12903396,
+              "duration": 9991670,
               "status": "passed"
             },
             "line": 9,
@@ -252,5 +252,259 @@
     "id": "ups-login-feature",
     "keyword": "Feature",
     "uri": "logintest.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3674038868,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.setUpFirefox()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1916876217,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.setUpChrome()"
+            }
+          }
+        ],
+        "line": 13,
+        "name": "Login with wrong user name and pass",
+        "description": "",
+        "id": "login-feature-for-ups;login-with-wrong-user-name-and-pass;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 637737495,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.tearDownChrome()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1585853521,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.tearDownFirefox()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8201005049,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigated- to ups login page",
+            "match": {
+              "location": "LoginStepsAgain.i_navigated_to_ups_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 205551060,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I entered- wrong \"user1\" \u0026 \"password1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 18
+                },
+                {
+                  "val": "password1",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepsAgain.i_entered_wrong_user_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3062225003,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click- on login",
+            "match": {
+              "location": "LoginStepsAgain.i_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 9791924,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should receive- an error message",
+            "match": {
+              "location": "LoginStepsAgain.i_should_receive_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@firefox"
+          },
+          {
+            "line": 4,
+            "name": "@chrome"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3668058314,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.setUpFirefox()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1876029622,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.setUpChrome()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Login with wrong user name and pass",
+        "description": "",
+        "id": "login-feature-for-ups;login-with-wrong-user-name-and-pass;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 621047604,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.tearDownChrome()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1444616514,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginHook.tearDownFirefox()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 8842600496,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I navigated- to ups login page",
+            "match": {
+              "location": "LoginStepsAgain.i_navigated_to_ups_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 187251748,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I entered- wrong \"user2\" \u0026 \"password2\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 18
+                },
+                {
+                  "val": "password2",
+                  "offset": 28
+                }
+              ],
+              "location": "LoginStepsAgain.i_entered_wrong_user_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3530721890,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click- on login",
+            "match": {
+              "location": "LoginStepsAgain.i_click_on_login()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 10188654,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should receive- an error message",
+            "match": {
+              "location": "LoginStepsAgain.i_should_receive_an_error_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 4,
+            "name": "@firefox"
+          },
+          {
+            "line": 4,
+            "name": "@chrome"
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature For UPS",
+    "description": "This login feature is for login functionality",
+    "id": "login-feature-for-ups",
+    "keyword": "Feature",
+    "uri": "logintestagain.feature"
   }
 ]

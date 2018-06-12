@@ -52,7 +52,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>May 30, 2018 02:23:50 AM</span>
+                    <span class='label suite-start-time blue darken-3'>Jun 9, 2018 07:59:50 PM</span>
 				</a>
 			</li>
 			<li>
@@ -139,7 +139,7 @@
 					<canvas id='parent-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> feature(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> feature(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> feature(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -154,7 +154,7 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>4</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -169,7 +169,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>8</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>16</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -189,12 +189,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Ups Login Feature</span>
-						<span class='test-time'>May 30, 2018 02:23:50 AM</span>
+						<span class='test-time'>Jun 9, 2018 07:59:50 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 42s+800ms</span>
+	<span class='duration right label'>0h 0m 40s+81ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">Login with wrong user id and password</span>
@@ -262,6 +262,84 @@
 </div>
 					</div>
 				</li>
+				
+				
+				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='13'>
+					<div class='test-heading'>
+						<span class='test-name'>Login Feature For UPS</span>
+						<span class='test-time'>Jun 9, 2018 08:00:32 PM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='scenariooutline node' test-id='14' status='pass'>
+	<span class='duration right label'>0h 0m 37s+422ms</span>
+	<div class='desc'>
+		<b>ScenarioOutline</b>
+		<span class="desc-text">Login with wrong user name and pass</span>
+	</div>
+	<ul class='steps'>
+		<li test-id='15' class='node scenario pass' status='pass'>
+			<div class='category-list'>
+				<span class='category label white-text'>@firefox</span>
+				<span class='category label white-text'>@chrome</span>
+			</div>
+			
+			<b>Scenario</b>
+			
+			<span class="bdd-step-name">Login with wrong user name and pass</span>
+			
+				<ul class='steps'>
+					<li test-id='16' class='node given pass' status='pass'><b>Given</b>
+						<span class="bdd-step-name">Given I navigated- to ups login page</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='17' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I entered- wrong "user1" & "password1"</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='18' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I click- on login</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='19' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then I should receive- an error message</span>
+							<div class='pre'>passed</div>
+					</li>
+				</ul>
+		</li>
+		<li test-id='20' class='node scenario pass' status='pass'>
+			<div class='category-list'>
+				<span class='category label white-text'>@firefox</span>
+				<span class='category label white-text'>@chrome</span>
+			</div>
+			
+			<b>Scenario</b>
+			
+			<span class="bdd-step-name">Login with wrong user name and pass</span>
+			
+				<ul class='steps'>
+					<li test-id='21' class='node given pass' status='pass'><b>Given</b>
+						<span class="bdd-step-name">Given I navigated- to ups login page</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='22' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I entered- wrong "user2" & "password2"</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='23' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I click- on login</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='24' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then I should receive- an error message</span>
+							<div class='pre'>passed</div>
+					</li>
+				</ul>
+		</li>
+	</ul>
+</div>
+					</div>
+				</li>
 			</ul>
 		</div>
 	</div>
@@ -316,12 +394,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>@firefox</span>
 						<span class='category-status right'>
-							<span class='label pass'>2</span>
+							<span class='label pass'>4</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 2</span>
+							<span class='label green accent-4 white-text'>Passed: 4</span>
 							
 							
 						</div>
@@ -337,13 +415,23 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>May 30, 2018 02:23:50 AM</td>
+										<td>Jun 9, 2018 07:59:50 PM</td>
 										<td class='linked' test-id='3'>Ups Login Feature.Login with wrong user id and password.Login with wrong user id and password</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>May 30, 2018 02:24:14 AM</td>
+										<td>Jun 9, 2018 08:00:11 PM</td>
 										<td class='linked' test-id='8'>Ups Login Feature.Login with wrong user id and password.Login with wrong user id and password</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Jun 9, 2018 08:00:32 PM</td>
+										<td class='linked' test-id='15'>Login Feature For UPS.Login with wrong user name and pass.Login with wrong user name and pass</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Jun 9, 2018 08:00:51 PM</td>
+										<td class='linked' test-id='20'>Login Feature For UPS.Login with wrong user name and pass.Login with wrong user name and pass</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -355,12 +443,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>@chrome</span>
 						<span class='category-status right'>
-							<span class='label pass'>2</span>
+							<span class='label pass'>4</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 2</span>
+							<span class='label green accent-4 white-text'>Passed: 4</span>
 							
 							
 						</div>
@@ -376,13 +464,23 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>May 30, 2018 02:23:50 AM</td>
+										<td>Jun 9, 2018 07:59:50 PM</td>
 										<td class='linked' test-id='3'>Ups Login Feature.Login with wrong user id and password.Login with wrong user id and password</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 									<tr>
-										<td>May 30, 2018 02:24:14 AM</td>
+										<td>Jun 9, 2018 08:00:11 PM</td>
 										<td class='linked' test-id='8'>Ups Login Feature.Login with wrong user id and password.Login with wrong user id and password</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Jun 9, 2018 08:00:32 PM</td>
+										<td class='linked' test-id='15'>Login Feature For UPS.Login with wrong user name and pass.Login with wrong user name and pass</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Jun 9, 2018 08:00:51 PM</td>
+										<td class='linked' test-id='20'>Login Feature For UPS.Login with wrong user name and pass.Login with wrong user name and pass</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -411,37 +509,37 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Features
-					<div class='panel-lead'>1</div>
-				</div>
-			</div>
-			<div class='col s2'>
-				<div class='card-panel r'>
-					Scenarios
 					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
+					Scenarios
+					<div class='panel-lead'>4</div>
+				</div>
+			</div>
+			<div class='col s2'>
+				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>8</div>
+					<div class='panel-lead'>16</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>May 30, 2018 02:23:50 AM</div>
+					<div class='panel-lead'>Jun 9, 2018 07:59:50 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>May 30, 2018 02:24:34 AM</div>
+			 		<div class='panel-lead'>Jun 9, 2018 08:01:12 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 0m 44s+813ms</div>
+					<div class='panel-lead'>0h 1m 21s+907ms</div>
 				</div>
 			</div>
 			<div class='col s6'>
@@ -458,7 +556,7 @@
 						</tr>
 						<tr>
 							<td>@firefox</td>
-							<td>2</td>
+							<td>4</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -467,7 +565,7 @@
 						</tr>
 						<tr>
 							<td>@chrome</td>
-							<td>2</td>
+							<td>4</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -487,7 +585,7 @@
 
 		<script>
 			var statusGroup = {
-				passParent: 1,
+				passParent: 2,
 				failParent: 0,
 				fatalParent: 0,
 				errorParent: 0,
@@ -495,7 +593,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 2,
+				passChild: 4,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -504,7 +602,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 8,
+				passGrandChild: 16,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,

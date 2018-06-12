@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Suite">
-                    <span>D:\Software-Testing-Training\TalenTech\TalenTech-Teaching\JAVA-CLASS\Java-Programs-Jan-2018\CucumberProjectThree\testng.xml</span>
+                    <span>C:\Users\Mohammad\git\CucumberProjectThree\CucumberProjectThree\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Suite" title="login.runner.LoginRunner" hash-for-method="feature(Ups Login Feature)">feature(Ups Login Feature)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="login.runner.LoginRunner" hash-for-method="feature(Login Feature For UPS)">feature(Login Feature For UPS)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -133,12 +138,22 @@
 (Runs Cucumber Feature)                  </em>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="feature(Login Feature For UPS)">
+                  </a> <!-- feature(Login Feature For UPS) -->
+                  <span class="method-name">feature</span>
+                  <span class="parameters">(Login Feature For UPS)</span>
+                  <em>
+(Runs Cucumber Feature)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Suite-class-passed -->
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">D:\Software-Testing-Training\TalenTech\TalenTech-Teaching\JAVA-CLASS\Java-Programs-Jan-2018\CucumberProjectThree\testng.xml</span>
+            <span class="header-content">C:\Users\Mohammad\git\CucumberProjectThree\CucumberProjectThree\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -195,16 +210,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'feature')
 data.setCell(0, 2, 'login.runner.LoginRunner')
-data.setCell(0, 3, 44853);
+data.setCell(0, 3, 42431);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'feature')
+data.setCell(1, 2, 'login.runner.LoginRunner')
+data.setCell(1, 3, 39489);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -237,15 +256,19 @@ return data;
               </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">feature(Ups Login Feature)</span>
-                <span class="method-start">213 ms</span>
+                <span class="method-start">277 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">feature(Login Feature For UPS)</span>
+                <span class="method-start">42708 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-class after">
                 <span class="method-name">writeExtentReport</span>
-                <span class="method-start">45066 ms</span>
+                <span class="method-start">82198 ms</span>
               </div> <!-- configuration-class after -->
               <div class="configuration-class after">
                 <span class="method-name">tearDownClass</span>
-                <span class="method-start">45076 ms</span>
+                <span class="method-start">82240 ms</span>
               </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
