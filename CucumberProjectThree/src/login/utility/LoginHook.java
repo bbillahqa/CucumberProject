@@ -12,14 +12,14 @@ public class LoginHook {
 
 	@Before("@chrome")
 	public void setUpChrome() {
-		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "/Users/luxicate/Desktop/Automation Engineer/chromedriver");
 		chromeDriver = new ChromeDriver();
 
 	}
 
 	@Before("@firefox")
 	public void setUpFirefox() {
-		System.setProperty("webdriver.firefox.driver", "geckodriver.exe");
+		System.setProperty("webdriver.firefox.driver", "/Users/luxicate/Desktop/Automation Engineer/geckodriver");
 		fireDriver = new FirefoxDriver();
 
 	}
